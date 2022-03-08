@@ -24,7 +24,7 @@ function trocaLugar (arr, de, para) {
 
 function divideNoPivo(arr) {
     let pivo = arr[Math.floor(arr.length/2)]
-    console.log(pivo)
+    // console.log(pivo)
 
     encontraMenores(pivo, arr);
     let valoresMenores = 0;
@@ -42,4 +42,6 @@ function divideNoPivo(arr) {
 }
 
 
-console.log(divideNoPivo(listaLivros))
+// console.log(divideNoPivo(listaLivros))
+
+module.exports = trocaLugar;
