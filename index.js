@@ -15,7 +15,6 @@ function mergeSort (arr, nivelAninhamento = 0) {
     return arr;
 }
 
-console.log(arr)
 
 function ordena(part1, part2){
     let posicaoAtualPart1 = 0;
